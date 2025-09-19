@@ -169,6 +169,8 @@
             ((System.ComponentModel.ISupportInitialize)backgroundAnimated).EndInit();
             ResumeLayout(false);
             PerformLayout();
+            tranparentLocation(userLabel, backgroundAnimated);
+            tranparentLocation(passLabel, backgroundAnimated);
         }
 
         private void tranparentLocation(Label label, PictureBox pictureBox)
